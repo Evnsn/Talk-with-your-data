@@ -1,0 +1,10 @@
+name: talk_with_data  # Replace with your environment name
+channels:
+  - defaults
+  - conda-forge  # Additional channel, if needed
+dependencies:
+  - python=3.10  # Python version
+  - numpy
+  - pandas
+  - scikit-learn
+  - streamlit
